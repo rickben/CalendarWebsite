@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+	<title>Sign-in</title>
+	<link href="style-second-page.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+	<img id="logo" src="photo2.png">
+	<h1>Sign in:</h1>
+	<form action="userNote.html" method="POST">
+	<fieldset>
+		<legend>To make your own photo diary</legend>
+		Username:
+		<input type="text" id="username" placeholder="Enter your name" required autocomplete  />
+		<br/>
+		Password:
+		<input type="password" id="password" placeholder="Choose password" required maxlength="8" />
+		<br/>
+		<input type="date" id="calendar"  value="01/01/2019" required />
+		<input type="submit" id="button" value="login" />	
+	</fieldset>
+	<script src="second-page.js"></script>
+</body>
+</html>

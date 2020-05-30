@@ -1,0 +1,57 @@
+body{
+	background-image: url("https://previews.123rf.com/images/siraphol/siraphol1503/siraphol150309095/38163803-vintage-flower-background-vintage-filter.jpg");
+	font-family: "Lucida Console", Monaco, monospace;
+	width: 400px;
+	position: static;
+	margin: 0 500px 0 auto;
+	}
+
+#logo{
+	opacity:0.75;
+	height:85px;
+	width:240px;
+	position: static;
+	margin: 0 80px 30px 80px;
+	-webkit-border-radius: 15px;
+}
+h1{
+	color: black;
+	background: white;
+	opacity: 0.7;
+	font-weight: bold;
+	margin: 0 auto 20px 120px;
+	-webkit-border-radius: 7px;
+	width: 160px;
+}
+
+legend{
+	color: white;
+	margin: auto 50px 20px 10px;
+
+}
+
+fieldset{
+	background:linear-gradient(burlywood, white);
+	color: black;
+	font-weight: bold;
+	width: 360px;
+	height: 300px;
+	-webkit-border-radius: 5px;
+	border: 20px;
+
+}
+input{
+	margin: auto 50px 20px 10px;
+	padding: 8px;
+	box-shadow: 5px 5px 20px orange;
+}
+.button {
+	background-color: orange;
+	color: black;
+	font-family:"Lucida Console", Monaco, monospace;
+	font-weight:bold;
+	border: -50px orange;
+	
+	
+}
+
